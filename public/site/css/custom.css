@@ -1,0 +1,51 @@
+@font-face {
+ font-family: 'ilyaweb';
+ src:url('/fonts/Vazir.eot?#') format('eot'), /* IE6?"8 */
+   url('/fonts/Vazir.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ 
+ 
+ url('/fonts/Vazir.ttf') format('truetype');  /* Saf3?"5, Chrome4+, FF3.5, Opera 10+ */
+} 
+body,a {
+text-align:right;
+direction:rtl;	
+font-family:'vazir',ilyaweb,'ilyaweb';
+}
+h1,.banner h1,input,select{
+  font-family:'vazir',ilyaweb,'ilyaweb' !important;
+
+}
+
+nav.navbar.bootsnav ul.nav>li>a,nav.navbar.bootsnav.no-background.white .attr-nav > ul > li > a, nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a, nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a, nav.navbar.bootsnav.no-background.white ul.nav > li > a{
+  font-family:'vazir',ilyaweb,'ilyaweb' !important;
+
+}
+nav.navbar.bootsnav ul.nav>li>a i{margin-left: 9px; margin-right: 0px;}
+.work-process-icon{float: right;}
+.work-process-caption {
+  margin-right: 55px;
+  margin-left: 0px;
+}
+.work-process-caption h4:before{right:0px;left: none;}
+.pr-buy-button a{text-align: center;}
+.footer{text-align:right;}
+.login-panel .form-control{border-radius: 50px !important;}
+.login-panel .social-login li a i{text-align: center;}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio].checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+  position: absolute;
+  margin-top: 4px\9;
+  margin-right: -20px;
+}
+
+
+
+
+
+@media (min-width: 768px){
+  .navbar-nav>li {
+    float: right;
+}
+}
+
+
+
